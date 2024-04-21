@@ -1,12 +1,11 @@
 
---local _, YssBossLoot = ...
-local YssBossLoot = YssBossLoot
+local _, YssBossLoot = ...
 
 local broker = LibStub("LibDataBroker-1.1")
 local icon = LibStub("LibDBIcon-1.0")
 
 local L = LibStub("AceLocale-3.0"):GetLocale("YssBossLoot", true)
-local BZ = LibStub("LibBabble-Zone-3.0", true):GetUnstrictLookupTable()
+local BZ = LibStub("LibBabble-Zone-3.0.01", true):GetUnstrictLookupTable()
 
 local last_ldb_anchor
 

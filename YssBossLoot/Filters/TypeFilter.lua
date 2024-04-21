@@ -1,11 +1,7 @@
 
---local addonName, addon = ...
+local addonName, addon = ...
 
---local L = LibStub("AceLocale-3.0"):GetLocale(addonName, true)
-
-local addon = YssBossLoot
-
-local L = LibStub("AceLocale-3.0"):GetLocale("YssBossLoot", true)
+local L = LibStub("AceLocale-3.0"):GetLocale(addonName, true)
 
 addon.filters["Item Type Filter"] = {}
 local filter = addon.filters["Item Type Filter"]
@@ -29,7 +25,7 @@ end
 
 addon.filterOptions["Item Type Filter"] = {
 	type = 'group',
-	name = "Item Type Filter",
+	name = L["Item Type Filter"],
 	args = {
 	},
 }
